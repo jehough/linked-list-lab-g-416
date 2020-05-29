@@ -48,5 +48,8 @@ function indexAt(node, collection, head){
 
 function insertNodeAt(index, address, head, collection){
   let prevNode = nodeAt(index-1, head, collection)
+  let newNode = collection[address]
+  newNode.next = prevNode.next
+  prevNode.next = address
 
 }

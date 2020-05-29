@@ -40,7 +40,7 @@ function indexAt(node, head, collection){
     }
     else{
       count += 1
-      currentNode = next(node, collection)
+      currentNode = next(currentNode, collection)
     }
   }
 }

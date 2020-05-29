@@ -9,3 +9,8 @@ function headNode(head, collection){
 function next(node, collection){
   return collection[node["next"]]
 }
+
+
+function nodeAt(){
+  
+}

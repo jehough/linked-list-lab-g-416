@@ -47,5 +47,5 @@ function indexAt(node, collection, head){
 }
 
 function insertNodeAt(){
-  
+
 }

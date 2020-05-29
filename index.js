@@ -6,6 +6,6 @@ function headNode(head, collection){
   return collection[head]
 }
 
-function next(){
-
+function next(node, collection){
+  return collectionp[node["next"]]
 }

@@ -52,3 +52,7 @@ function insertNodeAt(index, address, head, collection){
   newNode.next = prevNode.next
   prevNode.next = address
 }
+
+function deleteNodeAt(){
+  
+}

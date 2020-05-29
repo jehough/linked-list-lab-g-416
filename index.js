@@ -46,6 +46,6 @@ function indexAt(node, collection, head){
   }
 }
 
-function insertNodeAt(){
+function insertNodeAt(index, address, head, collection){
 
 }

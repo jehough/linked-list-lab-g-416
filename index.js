@@ -31,6 +31,16 @@ function addressAt(index, head, collection){
     return node["next"]}
 }
 
-function indexAt(){
-
+function indexAt(node, head, collection){
+  let currentNode = headNode(head, collection)
+  let count = 0
+  for (let i = 0; i < collection.length; i++){
+    if (currentNode === node){
+      return count
+    }
+    else{
+      count += 1
+      currentNode = next(currentNode, collection)
+    }
+  }
 }

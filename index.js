@@ -30,3 +30,7 @@ function addressAt(index, head, collection){
     }
     return node["next"]}
 }
+
+function indexAt(){
+  
+}

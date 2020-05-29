@@ -32,5 +32,5 @@ function addressAt(index, head, collection){
 }
 
 function indexAt(){
-  
+
 }

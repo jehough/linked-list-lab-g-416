@@ -31,7 +31,7 @@ function addressAt(index, head, collection){
     return node["next"]}
 }
 
-function indexAt(node, head, collection){
+function indexAt(node, collection, head){
   let currentNode = headNode(head, collection)
   console.log(currentNode)
   let count = 0

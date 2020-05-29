@@ -54,5 +54,5 @@ function insertNodeAt(index, address, head, collection){
 }
 
 function deleteNodeAt(){
-  
+
 }

@@ -53,6 +53,6 @@ function insertNodeAt(index, address, head, collection){
   prevNode.next = address
 }
 
-function deleteNodeAt(){
-
+function deleteNodeAt(index, head, collection){
+  let prevNode = nodeAt(index-1, head, collection)
 }

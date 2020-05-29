@@ -47,5 +47,6 @@ function indexAt(node, collection, head){
 }
 
 function insertNodeAt(index, address, head, collection){
+  let node = headNode(head, collection)
 
 }

@@ -20,5 +20,5 @@ function nodeAt(index, head, collection){
 }
 
 function addressAt(){
-  
+
 }

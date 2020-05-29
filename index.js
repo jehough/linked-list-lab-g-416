@@ -19,6 +19,10 @@ function nodeAt(index, head, collection){
   return node
 }
 
-function addressAt(){
-
+function addressAt(index, head, collection){
+  let node = headNode(head, collection)
+  for(let i = 0; i < index-1; i++){
+    node = next(node, collection)
+  }
+  return node["next"]
 }

@@ -35,7 +35,7 @@ function indexAt(node, head, collection){
   let currentNode = headNode(head, collection)
   let count = 0
   while(count < collection.length){
-    if (currentNode["name"] == node["name"]){
+    if (currentNode["name"] === node["name"]){
       return count
     }
     else{

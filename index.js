@@ -55,4 +55,6 @@ function insertNodeAt(index, address, head, collection){
 
 function deleteNodeAt(index, head, collection){
   let prevNode = nodeAt(index-1, head, collection)
+  let deleteNode = nodeAt(index, head, collection)
+  prevNode.next = deleteNode.next
 }

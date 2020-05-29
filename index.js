@@ -34,7 +34,7 @@ function addressAt(index, head, collection){
 function indexAt(node, collection, head){
   let currentNode = headNode(head, collection)
   let count = 0
-  console.log(collection.length)
+  const length = Object.keys(collection).length
   while(count < collection.length){
     if (currentNode["name"] === node["name"]){
       return count
